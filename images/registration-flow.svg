@@ -1,0 +1,35 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NEXUS 注册到首次请求流程</title>
+  <desc id="desc">展示从注册账号、充值、创建令牌、选择分组和模型到客户端测试成功的完整流程。</desc>
+  <rect width="960" height="260" rx="24" fill="#F8FAFC"/>
+  <rect x="30" y="38" width="132" height="156" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="206" y="38" width="132" height="156" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="382" y="38" width="132" height="156" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="558" y="38" width="132" height="156" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="734" y="38" width="196" height="156" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="96" y="76" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0F172A">注册账号</text>
+  <text x="96" y="112" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">邮箱验证</text>
+  <text x="96" y="138" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">进入控制台</text>
+  <text x="272" y="76" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0F172A">充值</text>
+  <text x="272" y="112" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">小额跑通</text>
+  <text x="272" y="138" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">余额可查</text>
+  <text x="448" y="76" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0F172A">创建 Key</text>
+  <text x="448" y="112" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">选择分组</text>
+  <text x="448" y="138" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">设置额度</text>
+  <text x="624" y="76" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0F172A">选择模型</text>
+  <text x="624" y="112" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">模型广场复制</text>
+  <text x="624" y="138" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">确认价格</text>
+  <text x="832" y="76" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0F172A">客户端测试</text>
+  <text x="832" y="112" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">填入地址与 Key</text>
+  <text x="832" y="138" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">发送“你好”</text>
+  <text x="832" y="164" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#16A34A">返回成功</text>
+  <path d="M172 116H196" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M190 110L196 116L190 122" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M348 116H372" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M366 110L372 116L366 122" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M524 116H548" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M542 110L548 116L542 122" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 116H724" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M718 110L724 116L718 122" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="480" y="224" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">先跑通最小链路，再接入真实项目和高阶模型</text>
+</svg>

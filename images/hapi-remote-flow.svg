@@ -1,0 +1,40 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HAPI 远程控制链路</title>
+  <desc id="desc">展示底层 CLI 负责调用 NEXUS 模型，HAPI 负责把会话同步到 Hub 和手机或浏览器端。</desc>
+  <rect width="960" height="320" rx="24" fill="#F8FAFC"/>
+
+  <rect x="40" y="56" width="232" height="208" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="364" y="56" width="232" height="208" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="688" y="56" width="232" height="208" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+
+  <text x="156" y="92" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#0F172A">底层 CLI</text>
+  <text x="156" y="126" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">Claude Code</text>
+  <text x="156" y="150" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">Codex / Gemini / OpenCode</text>
+  <text x="156" y="184" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">先负责连接 NEXUS</text>
+  <text x="156" y="208" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">会话真正跑在这里</text>
+  <text x="156" y="238" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#64748B">模型地址是否正确，先看这一层</text>
+
+  <text x="480" y="92" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#0F172A">HAPI Hub</text>
+  <text x="480" y="126" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">同步会话状态</text>
+  <text x="480" y="150" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">保存访问令牌</text>
+  <text x="480" y="174" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">提供浏览器 / 手机入口</text>
+  <text x="480" y="208" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">可配合 Runner 远程拉起会话</text>
+  <text x="480" y="238" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#64748B">页面能不能打开，重点看这一层</text>
+
+  <text x="804" y="92" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#0F172A">手机 / 浏览器</text>
+  <text x="804" y="126" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">查看会话</text>
+  <text x="804" y="150" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">继续对话</text>
+  <text x="804" y="174" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">审批权限请求</text>
+  <text x="804" y="208" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#475569">跨设备接管同一会话</text>
+  <text x="804" y="238" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#64748B">这里只负责控制，不直接调用模型</text>
+
+  <path d="M284 156H352" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M346 150L352 156L346 162" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M608 156H676" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M670 150L676 156L670 162" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="128" y="18" width="704" height="24" rx="12" fill="#E2E8F0"/>
+  <text x="480" y="35" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#475569">先把底层 CLI 走 NEXUS 跑通，再用 HAPI 把会话同步到远端设备</text>
+
+  <text x="480" y="292" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">页面打不开先查 HAPI；页面正常但模型不回，先查底层 CLI 的网关和模型配置</text>
+</svg>
