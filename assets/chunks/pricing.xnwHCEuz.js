@@ -1,1 +1,1 @@
-const i="/images/tutorial/pricing.png";export{i as _};
+const i="/logo.png";export{i as _};

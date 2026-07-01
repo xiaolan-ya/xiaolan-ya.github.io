@@ -1,1 +1,1 @@
-const t="/images/tutorial/create-key.png";export{t as _};
+const t="/logo.png";export{t as _};
